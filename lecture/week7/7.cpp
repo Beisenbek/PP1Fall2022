@@ -13,7 +13,7 @@ int main(){
             cout << i << " ";
         }
         i++;
-        if(i > n) continue;
+        if(i > n) break;
     }    
     return 0;
 }
