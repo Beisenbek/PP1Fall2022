@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
 		i_c++;
 	}
 	
-	if(i_a == n){
+	if(i_a == n){¸
 		for(int i = i_b; i < m; ++i){
 			c[i_c] = b[i];
 			i_c++;
