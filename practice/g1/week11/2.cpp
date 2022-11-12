@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 using namespace std;
 
 string f(string d, int x, int k, string res){
@@ -9,13 +8,8 @@ string f(string d, int x, int k, string res){
 }
 
 int main(){
-    int x;
-    cin >> x;
-
-    int k;
-    cin >> k;
-
+    int x, k;
+    cin >> x >> k;
     cout << f("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ", x, k, "");
-
     return 0;
 }
