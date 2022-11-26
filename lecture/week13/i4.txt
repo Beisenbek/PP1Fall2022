@@ -1,0 +1,7 @@
+keyboard 200
+mouse 10
+mouse -2
+keyboard 100
+mouse -1
+keyboard -10
+end
